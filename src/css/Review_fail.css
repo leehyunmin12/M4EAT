@@ -1,0 +1,40 @@
+#root {
+    background: #ffd2c4;
+    
+}
+.navBar {
+    min-height: 77px;
+    width: 100%;
+    background: linear-gradient(
+        to right, #FF2727, #FF751A
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+.text1 {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.text2 {
+    font-size: small;
+}
+.failimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bodytext {
+    margin-top: 32px;
+    color: #FF6600;
+    font-weight: bold;
+    text-align: center;
+}
+.bodycontents {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
